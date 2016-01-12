@@ -1,0 +1,124 @@
+body {font-size: 12px; line-height: 2em; }
+
+header { height: 40px; width: 100%; overflow: hidden; background: #333 !important; position: fixed;}
+header .logo h1 { line-height: 0;}
+header .logo a { line-height: 28px; height: 28px;display: inline-block; padding:6px 0;}
+header .logo img { height: 100%;}
+header .topnav { float: none; position: relative; left: 100%; transition:0.3s all linear; height: 40px; }
+header .topnav .navtoggle { display: inline-block; color: #fff; height: 40px; }
+header .topnav .navtoggle span { display: inline-block; width: 40px;line-height: 40px;  background-color: #333; font-size: 20px; text-align: center; height: 255px;}
+header .topnav ul{ position: absolute; left: 123px; top: 0;width: 100%;}
+header .topnav li { background-color: #fff; width: 100%;  border-bottom: 1px #eee solid;}
+header .topnav li a { width:100%; height: 50px; line-height: 50px;text-align: left; color: #000; opacity:1;padding-left: 20px; }
+
+.sidebar { position: fixed; bottom: auto; top: 100%; left: 0; z-index: 29; transition:0.3s all linear;}
+.sidebar li { width: 40px; height: 50px;line-height: 50px; text-align: center; background-color: #333; color: #333; border-bottom: 1px solid #333;}
+.sidebar li:hover { color:#333; background-color: #333;}
+.sidebar li span{ display: inline-block;width: 40px;}
+.sidebar li div { position: absolute; text-align: left; right: auto; left: 40px; width: 100%;background-color: #fff;color: #000;border-bottom: 1px solid #eee;visibility: visible; opacity: 1;} 
+.sidebar li div a { width: 100%;}
+.sidebar li:last-child div { padding-left: 0; width: 100%; }
+
+.btn { margin-top: 30px; }
+.btn a {  color: #fff; background-color: #000;padding: 8px 20px; font-size: 12px;}
+.btn a:hover { color: #fff; background-color: #000;}
+.title h3 { font-size: 16px; }
+.title h2 { font-size: 25px; line-height: 30px; font-family:"微软雅黑"; }
+.main .banner { height: 180px; background:#2e4180; width: 100%; padding-top: 80px;}
+.main .banner .text {width: 100%; padding: 0;}
+.main .banner .text h2 {font-size: 16px; padding: 0; }
+.main .banner .text p {font-size: 10px; line-height: 20px; padding: 0; padding-top: 20px; width: 90%; margin: 0 auto;}
+.main .banner .btn { margin-top: 13px; }
+.main .banner .btn a {color: #405BB3; background-color: #fff; padding: 8px 20px; font-size: 12px;}
+
+.main .card { position: static; max-height: auto; height: auto; max-height: none; margin: 0 auto; padding: 45px 0; }
+.main .card .container { height: auto; width: 100%;}
+.index .main .card { padding: 45px 0; }
+.main .card .photo { height: 70px; width: 70px; }
+.main .card p { width: 96%; margin:0 auto; font-size: 14px; padding: 30px 0 20px; line-height: 20px;}
+
+.main .card .form .entry { position: relative; width: 96%; float: none; display: inline-block;}
+.main .card .form .entry .note { position: absolute;right: 15px; bottom: 25px; }
+.main .card .form input,
+.main .card .form textarea { padding:8px 15px; margin-top: 30px; font-size: 16px; box-sizing: border-box;}
+.main .card .form input { width: 100%; height: 60px;}
+.main .card .form textarea { width: 96%; height: 150px; }
+.main .card .form .btn a { width: 96%; padding: 16px 0; border:none; }
+
+.main .card .list li { width: 48%; vertical-align: top; text-align: left; }
+.main .card .list li dl { padding-left: 45px; }
+.main .card .list li dt { font-size: 16px; padding: 30px 0 10px; }
+.main .card .list li dd { font-size: 12px; padding: 0; line-height: 20px; }
+
+.introduces .main .card p { display: none;}
+.index .main .card span { padding:10px; font-size: 12px;}
+.work .main .card,
+.blog .main .card { padding: 20px 0; height: auto; }
+.title h2 span { border-bottom: 1px solid #839DF0; padding-bottom: 5px; }
+
+.main .section { margin: 38px 0; background-color: #fff; width: 100%;  }
+.main .section-1 .container { height: 180px; }
+.main .section-1 .text .title {width: 140px;padding-bottom: 5px; margin: 0 auto 20px; }
+.main .section-1 .text p { width: 94%; line-height: 20px; margin: 0 auto; }
+.contact .main .section-1 { text-align: center;}
+
+.main .section-2 .container{ padding: 24px 0 0; }
+.main .section-2 .text p { font-size: 14px; padding: 20px 0; line-height: 18px;}
+.main .section-2 .pic .pic-img { width: 100%; height: 180px; margin-top: 10px;}
+.main .section-2 .pic img { width: 100%; height: 100%; }
+.main .section-2 .pic a { opacity: 1; width: 100%; height: 100%; background-position: center; background-size: 8%;}
+.main .section-2 .pic a span { padding: 40px 0 30px; font-size: 14px; }
+
+.main .section-3 { height: 180px; position: relative;}
+.main .section-3 .container { height: 180px; width: 100%; display: block; vertical-align: middle; position: relative;}
+.main .section-3 .container .pic { float: none; width: 100%; height: 180px; padding:0; position: absolute; top: 0; z-index: 5; background-color: #000;transform:none;}
+.main .section-3 .container .pic img { height: 100%; opacity: 0.5}
+.main .section-3 .container .text { float: none;display: block; width: 80%; padding: 0; z-index: 10; position: relative; color: #fff; margin: 0 auto;}
+.main .section-3 .container .text .title { font-size: 14px; padding: 20px 0 0;}
+.main .section-3 .container .text p { line-height: 20px; margin:10px 0 ; }
+.main .section-3 .container .text .more { background-color: #fff; padding: 4px 20px; border:none; margin: 10px 0 0;}
+
+.main .blog-bar .container{ padding: 24px 0 0;position: relative;}
+.main .blog-bar .blog { float: left; width: 48%; margin: 0 4% 3% 0; line-height: 0;}
+.main .blog-bar .blog:nth-child(3n){ margin-right: 4%; }
+.main .blog-bar .blog:nth-child(2n){ margin-right: 0; }
+.main .blog-bar .blog img { width: 100%; height: 100%;}
+.main .blog-bar .blog .text .title{ padding: 8% 0 2%; font-size: 18px; line-height: 1em;}
+.main .blog-bar .blog .text p { padding: 8% 2% 2%; line-height: 20px;}
+.main .blog-bar .blog > a {font-size: 18px; padding: 80% 0 0; height: 20%; }
+
+.blog .main { position: relative;}
+.main .next { position: absolute; width: 40%; line-height: 2em;text-align: center; bottom: 250px; right: 20px;}
+.main .next a {width: 90%; text-align: center; margin: 8% 2%; color:#fff ; background-color:#16bacc;}
+
+.main .mainbottom { height: 180px; background-color: #000; color: #fff; text-align: center; }
+.main .mainbottom .text { color: #fff; }
+.main .mainbottom .text .title { padding-top: 20px; }
+.main .mainbottom .text p { padding-top: 12px; width: 90%; margin: 0 auto;}
+.main .mainbottom .btn { margin-top: 15px; }
+.main .mainbottom .btn a { background-color: #fff; color: #000; padding: 5px 40px; }
+
+footer { height: 50px;}
+footer .copyright { padding-top: 15px; display: inline-block; }
+
+.bolg-article .main .banner { height: 200px;  background-color: #ccc; padding: 0; margin: 0; }
+.bolg-article .main .banner .banner-bg { overflow: hidden;}
+.bolg-article .main .banner .banner-bg img { height: 200px; position: static; margin: 0;}
+.bolg-article .main .article { padding:10px 0;}
+.bolg-article .main .article .container{ margin: 0;}
+.bolg-article .main .article .title h3 { text-align: center; font-size:20px; color:#00C9D8; padding: 10px 0;  }
+.bolg-article .main .article .profile { text-align: center;}
+.bolg-article .main .article .content { padding: 0;}
+.bolg-article .main .article .content .text{ padding: 10px 5% 0;}
+.bolg-article .main .article .content p { padding-top: 10px; line-height:20px;}
+.bolg-article .main .article .pic { padding: 25px 0; width: 100%;}
+.bolg-article .main .article .pic img { width: 100%; }
+
+.bolg-list .main { padding-top: 80px; }
+.bolg-list .main .container { width: 90%; margin: 0 auto;}
+.bolg-list .main .container .title { margin:0 ; padding: 24px 0;}
+.bolg-list .main .container .title h3 {  font-size: 20px; color: #666;}
+.bolg-list .main .list li { padding: 20px 0;}
+.bolg-list .main .list li h4 a { font-size: 16px;line-height: 24px;}
+.bolg-list .main .list li .profile { font-size: 12px; line-height: 18px;}
+
