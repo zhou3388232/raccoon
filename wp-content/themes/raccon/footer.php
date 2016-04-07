@@ -1,6 +1,6 @@
 <div class="mainbottom">
     <?php
-        $post_id=21;
+        $post_id=281;
         $post_info=get_post($post_id);
         $title=$post_info->post_title;
         $content=$post_info->post_content;
@@ -14,19 +14,30 @@
         <p><?php echo $content;?></p>
     </div>
     <div class="btn">
-         <a href="<?php echo get_category_link(6)?>" class="btn-set"><?php echo $excerpt;?></a>
+         <a href="<?php echo get_page_link(269)?>" class="btn-set"><?php echo $excerpt;?></a>
     </div>
 </div>
 </div>
-<footer>
+<div class="footer">
     <?php
-        $post_id=69;
+        $post_id=282;
         $post_info=get_post($post_id);        
         $content=$post_info->post_content;
          ?>
-    <span class="copyright"><?php echo $content;?></span>
-</footer>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
+    <div class="copyright"><?php echo $content;?></div>
+</div>
+<?php wp_footer();?>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/utility.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/ver.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72009259-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

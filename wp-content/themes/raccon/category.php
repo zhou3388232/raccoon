@@ -88,5 +88,3 @@ echo $thumbnail_image_url[0];
        <?php get_sidebar();?>
        <?php get_footer();?>
        <?php }?>
-  
-    
