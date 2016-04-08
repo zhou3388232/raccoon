@@ -21,7 +21,7 @@ Template Name:blogs-list
                     <ul>
                         <?php 
                         $args=array(
-                            'category__or'=>array(16,19),
+                            'category__not_in'=>array(26),
                             'orderby'=>date,
                             'order'=>DESC,
                             'paged'=>$paged
